@@ -1,16 +1,17 @@
-# Respiratory-System-IAR
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Respiratory System Website</title>
 
 <style>
 
 body{
     margin:0;
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
     background-color:#dff6ff;
     color:#003049;
 }
@@ -31,48 +32,40 @@ nav{
 nav a{
     color:white;
     text-decoration:none;
-    margin:15px;
+    margin:10px;
     font-weight:bold;
 }
 
-nav a:hover{
-    color:yellow;
-}
-
 section{
-    padding:40px;
-    margin:20px;
     background:white;
+    margin:20px;
+    padding:30px;
     border-radius:15px;
-    box-shadow:0px 0px 10px gray;
-}
-
-h2{
-    color:#0077b6;
 }
 
 img{
     width:250px;
     height:200px;
-    margin:10px;
     border-radius:10px;
+    margin:10px;
 }
 
 footer{
-    background:#0077b6;
+    background-color:#0077b6;
     color:white;
     text-align:center;
     padding:15px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
     <h1>Respiratory System</h1>
-    <h3>PIA HTML Website</h3>
+    <h2>PIA HTML Website</h2>
 </header>
 
 <nav>
@@ -87,130 +80,129 @@ footer{
 </nav>
 
 <section id="home">
-    <h2>Home</h2>
 
-    <p>
-    Welcome to our Respiratory System website. The respiratory system is one of the most important systems in the human body because it helps people breathe and receive oxygen. Oxygen is necessary for all body cells to function correctly. This system includes organs such as the nose, lungs, trachea, and bronchi. Every day, humans breathe thousands of times without noticing it. The respiratory system also removes carbon dioxide from the body. In this project, we explain how the respiratory system works, common diseases, robotic solutions, and programming used during the semester. Our team worked together to investigate, design, and create this website as part of our final project.
-    </p>
+<h2>Home</h2>
 
-    <center>
-        <img src="image1.jpg" alt="Respiratory Image">
-        <img src="image2.jpg" alt="Lungs Image">
-    </center>
+<p>
+Welcome to our Respiratory System website. The respiratory system helps the body breathe and receive oxygen. It is formed by organs such as the lungs, trachea, nose, and bronchi. Oxygen is necessary for the body to survive and function correctly. This project explains the functions of the respiratory system, common diseases, robotic solutions, and programming used during this semester project.
+</p>
+
+<center>
+<img src="image1.jpg">
+<img src="image2.jpg">
+</center>
+
 </section>
 
 <section id="research">
-    <h2>Research Data</h2>
 
-    <p>
-    The respiratory system is responsible for breathing and gas exchange. Air enters through the nose or mouth and travels through the trachea into the lungs. Inside the lungs, oxygen moves into the blood while carbon dioxide leaves the body. The diaphragm is an important muscle that helps the lungs expand and contract. Healthy lungs are necessary for good health and energy. Smoking, pollution, and infections can damage this system. Scientists continue researching ways to improve respiratory treatments and technologies.
-    </p>
+<h2>Research Data</h2>
 
-    <p>
-    Extra information:
-    <a href="https://kidshealth.org/en/kids/lungs.html" target="_blank">
-    Respiratory System Information
-    </a>
-    </p>
+<p>
+The respiratory system allows oxygen to enter the body and removes carbon dioxide. The lungs are the main organs of this system. Breathing is essential for human life and good health.
+</p>
 
-    <center>
-        <img src="image3.jpg" alt="Research Image">
-        <img src="image4.jpg" alt="Research Image">
-    </center>
+<center>
+<img src="image3.jpg">
+<img src="image4.jpg">
+</center>
+
 </section>
 
 <section id="problems">
-    <h2>Problems</h2>
 
-    <p>
-    Many health problems affect the respiratory system. Some common diseases are asthma, pneumonia, bronchitis, and lung cancer. Asthma causes difficulty breathing because the airways become inflamed. Smoking and air pollution are major causes of respiratory diseases. Viruses and bacteria can also infect the lungs and create serious complications. Doctors recommend exercise, healthy eating, and avoiding smoking to protect the respiratory system. Early medical treatment is important to prevent dangerous conditions.
-    </p>
+<h2>Problems</h2>
 
-    <center>
-        <img src="image5.jpg" alt="Problems Image">
-        <img src="image6.jpg" alt="Problems Image">
-    </center>
+<p>
+Some respiratory diseases include asthma, pneumonia, and lung cancer. Smoking and pollution can seriously damage the lungs and affect breathing.
+</p>
+
+<center>
+<img src="image5.jpg">
+<img src="image6.jpg">
+</center>
+
 </section>
 
 <section id="robot">
-    <h2>Robotic Solution</h2>
 
-    <p>
-    Our robotic solution is a nano robot designed to travel inside the respiratory system and help detect diseases or infections. The robot can identify harmful particles, bacteria, or damaged tissue in the lungs. It may also help doctors deliver medicine directly to affected areas. The robot design includes sensors, cameras, and AI technology to improve medical treatments. This solution could help reduce surgeries and improve patient recovery in the future.
-    </p>
+<h2>Robotic Solution</h2>
 
-    <center>
-        <img src="image7.jpg" alt="Robot Image">
-        <img src="image8.jpg" alt="Robot Image">
-    </center>
+<p>
+Our robotic solution is a nano robot that can travel through the respiratory system to detect diseases and help doctors deliver medicine directly into the lungs.
+</p>
+
+<center>
+<img src="image7.jpg">
+<img src="image8.jpg">
+</center>
+
 </section>
 
 <section id="programming">
-    <h2>Programming</h2>
 
-    <p>
-    This website was created using HTML and CSS in Visual Studio Code and GitHub Pages. Our team used AI tools to help organize the website design and coding ideas. We used programming concepts such as headings, paragraphs, images, links, sections, colors, and menus. We also created algorithms and flowcharts to explain the robot functions and movement. The website structure allows users to navigate through different sections easily.
-    </p>
+<h2>Programming</h2>
 
-    <ul>
-        <li>HTML for structure</li>
-        <li>CSS for design</li>
-        <li>GitHub Pages for publishing</li>
-        <li>AI prompts for support</li>
-    </ul>
+<p>
+This website was created using HTML and CSS. GitHub Pages was used to publish the website online.
+</p>
 
-    <center>
-        <img src="image9.jpg" alt="Programming Image">
-        <img src="image10.jpg" alt="Programming Image">
-    </center>
+<center>
+<img src="image9.jpg">
+<img src="image10.jpg">
+</center>
+
 </section>
 
 <section id="journey">
-    <h2>Journey</h2>
 
-    <p>
-    During this project, our team learned many things about the respiratory system and website design. We completed research, designed our robot, programmed sections, and organized information. Team collaboration was important because each member contributed ideas and solutions. We also learned how to use HTML, CSS, and GitHub. This experience improved our teamwork, creativity, and technology skills.
-    </p>
+<h2>Journey</h2>
 
-    <center>
-        <img src="image11.jpg" alt="Journey Image">
-        <img src="image12.jpg" alt="Journey Image">
-    </center>
+<p>
+During this project we learned about coding, teamwork, and the respiratory system. We worked together to design and organize this website.
+</p>
+
+<center>
+<img src="image11.jpg">
+<img src="image12.jpg">
+</center>
 
 </section>
 
 <section id="conclusion">
-    <h2>Conclusion</h2>
 
-    <p>
-    In conclusion, the respiratory system is essential for human life because it provides oxygen to the body. Through this project, we learned about respiratory organs, diseases, and possible robotic solutions. We also improved our coding and teamwork abilities. This project helped us understand how science, technology, and medicine can work together to improve healthcare in the future.
-    </p>
+<h2>Conclusion</h2>
 
-    <center>
-        <img src="image13.jpg" alt="Conclusion Image">
-        <img src="image14.jpg" alt="Conclusion Image">
-    </center>
+<p>
+This project helped us understand the importance of the respiratory system and how technology can improve medicine and healthcare.
+</p>
+
+<center>
+<img src="image13.jpg">
+<img src="image14.jpg">
+</center>
+
 </section>
 
 <section id="team">
-    <h2>Team</h2>
 
-    <p>
-    Group: ________ <br>
-    Team: ________ <br>
-    Student Names: __________________________ <br>
-    IDs: __________________________ <br>
-    School: CIDEB UANL
-    </p>
+<h2>Team</h2>
 
-    <center>
-        <img src="team1.jpg" alt="Team Image">
-        <img src="team2.jpg" alt="Team Image">
-    </center>
+<p>
+Group: ______ <br>
+Team: ______ <br>
+Names: ____________________
+</p>
+
+<center>
+<img src="team1.jpg">
+<img src="team2.jpg">
+</center>
+
 </section>
 
 <footer>
-    <p>Respiratory System Website - PIA 2026</p>
+Respiratory System Website - 2026
 </footer>
 
 </body>
